@@ -1,5 +1,5 @@
 package com.hyb_hrms.testscripts;
-
+//it takes screenshot
 import java.io.IOException;
 
 import org.apache.log4j.xml.DOMConfigurator;
