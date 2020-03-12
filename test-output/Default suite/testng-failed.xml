@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <groups>
+      <run>
+        <include name="test"/>
+        <include name="test2"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.hyb_hrms.testscripts.testcase100">
+        <methods>
+          <include name="tc100"/>
+        </methods>
+      </class> <!-- com.hyb_hrms.testscripts.testcase100 -->
+      <class name="com.hyb_hrms.testscripts.testcase101">
+        <methods>
+          <include name="tc101"/>
+        </methods>
+      </class> <!-- com.hyb_hrms.testscripts.testcase101 -->
+      <class name="com.hyb_hrms.testscripts.Testcase102">
+        <methods>
+          <include name="tc102"/>
+        </methods>
+      </class> <!-- com.hyb_hrms.testscripts.Testcase102 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
